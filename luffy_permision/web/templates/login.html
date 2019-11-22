@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div style="margin: 15% 40%;">
+    <h1>用户登录</h1>
+    <form  method="post">
+        {% csrf_token %}
+        <p>
+            <label>用户名：</label>
+            <input type="text" name="user" placeholder="请输入用户名" autofocus required >
+        </p>
+        <p>
+            <label>密码：</label>
+            <input type="password" name="pwd" placeholder="请输入密码" required>
+        </p>
+
+        <input type="submit" value="提交">
+        <span style="color: red">{{ msg }}</span>
+    </form>
+</div>
+
+
+</body>
+</html>
