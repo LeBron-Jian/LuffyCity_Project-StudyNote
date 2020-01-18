@@ -24,3 +24,8 @@ this is my notes of the CRM project
 ### prev_luffy_stark luffy_stark_01  luffy_stark_02 三个文件
 - prev_luffy_stark luffy_stark_01  luffy_stark_02  这三个项目文件，是我学习 stark组件中做的笔记，其中 pre_luffy_stark项目是主要在学习stark组件之前做的三个笔记，分别为Django 项目启动时候，自定义执行某个py文件，单例模式，和django路由分发的额本质：include。后面两个是stark组件开发的笔记，项目完全可以执行。具体内容见我博客。
 
+
+###  crm_all_project 文件
+
+- crm_all_project 是 wusir的项目记录，我放在这里做个笔记
+
